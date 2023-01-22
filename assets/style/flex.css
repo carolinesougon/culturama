@@ -17,7 +17,7 @@
 .destaques{
     display: flex;
     align-items: center;
-    gap: 10px;
+    column-gap: 10px;
 }
 
 .destaques__barra{
@@ -68,7 +68,7 @@
 
     .categorias__lista{
         flex-wrap: wrap;
-        column-gap: 1rem;
+        column-gap: 1.5rem;
         row-gap: 1rem;
 
     }
@@ -80,6 +80,7 @@
     .agenda__lista{
         justify-content: end;
     }
+ }
 
    
 
